@@ -13,6 +13,10 @@
 		A4749802202AA76800F8A478 /* ImgPostEffects.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4749800202AA76800F8A478 /* ImgPostEffects.xcdatamodeld */; };
 		A4749804202AA76800F8A478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4749803202AA76800F8A478 /* Assets.xcassets */; };
 		A4749807202AA76800F8A478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4749805202AA76800F8A478 /* LaunchScreen.storyboard */; };
+		A474980F202C38C300F8A478 /* PostEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A474980E202C38C300F8A478 /* PostEffects.swift */; };
+		A4749811202CBAD000F8A478 /* RGBAImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4749810202CBAD000F8A478 /* RGBAImage.swift */; };
+		A4749817202FACE100F8A478 /* FilterMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4749816202FACE100F8A478 /* FilterMenuViewController.swift */; };
+		A4CCBB8920350B6200321B61 /* MathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCBB8820350B6200321B61 /* MathHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A4749803202AA76800F8A478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4749806202AA76800F8A478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4749808202AA76800F8A478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A474980E202C38C300F8A478 /* PostEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostEffects.swift; sourceTree = "<group>"; };
+		A4749810202CBAD000F8A478 /* RGBAImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAImage.swift; sourceTree = "<group>"; };
+		A4749816202FACE100F8A478 /* FilterMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterMenuViewController.swift; sourceTree = "<group>"; };
+		A4CCBB8820350B6200321B61 /* MathHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				A4749805202AA76800F8A478 /* LaunchScreen.storyboard */,
 				A4749808202AA76800F8A478 /* Info.plist */,
 				A4749800202AA76800F8A478 /* ImgPostEffects.xcdatamodeld */,
+				A474980E202C38C300F8A478 /* PostEffects.swift */,
+				A4749810202CBAD000F8A478 /* RGBAImage.swift */,
+				A4749816202FACE100F8A478 /* FilterMenuViewController.swift */,
+				A4CCBB8820350B6200321B61 /* MathHelper.swift */,
 			);
 			path = ImgPostEffects;
 			sourceTree = "<group>";
@@ -140,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4749811202CBAD000F8A478 /* RGBAImage.swift in Sources */,
 				A47497FC202AA76800F8A478 /* ViewController.swift in Sources */,
 				A47497FA202AA76800F8A478 /* AppDelegate.swift in Sources */,
+				A4749817202FACE100F8A478 /* FilterMenuViewController.swift in Sources */,
+				A474980F202C38C300F8A478 /* PostEffects.swift in Sources */,
+				A4CCBB8920350B6200321B61 /* MathHelper.swift in Sources */,
 				A4749802202AA76800F8A478 /* ImgPostEffects.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +322,7 @@
 				A474980D202AA76800F8A478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
