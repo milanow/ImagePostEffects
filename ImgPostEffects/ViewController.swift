@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    let buttonHeight = 44
     
     var originalImage: UIImage = UIImage(named: "testImg.jpeg")!
 
@@ -96,7 +97,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let leftConstraint = secondaryMenu
             .leftAnchor.constraint(equalTo: view.leftAnchor)
         let rightConstrint = secondaryMenu.rightAnchor.constraint(equalTo: view.rightAnchor)
-        let heightConstraint = secondaryMenu.heightAnchor.constraint(equalToConstant: 44)
+        let heightConstraint = secondaryMenu.heightAnchor.constraint(equalToConstant: CGFloat(buttonHeight + 20))
         
         NSLayoutConstraint.activate([bottomConstraint, leftConstraint, rightConstrint, heightConstraint])
         
